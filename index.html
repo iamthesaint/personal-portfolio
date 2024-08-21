@@ -1,66 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width,initial-scale=1">
-   <title>Stephenie St.Hilaire Portfolio</title>
-   <link rel="stylesheet" href="assets/style.css">
-   <link rel="stylesheet"href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Cormorant+Garamond&display=swap">
- </head>
- <body>
- <header class="header">
-    <h1>steph<span style="color:#ff356e">enie</span> st.<span style="color:#ff356e">hilaire</span></h1>
- </header>
-    <nav class="nav-bar">
+
+<head>
+  <title>Stephenie St.Hilaire</title>
+  <meta charset="utf-8">
+  <meta name="description" content="personal-portfolio">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <header>
+    <h1>Stephenie St.Hilaire</h1>
+    <nav>
       <ul>
-       <li><a href="#about-me" class="about">ABOUT</a></li>
-       <li><a href="#portfolio" class="my-work">MY WORK</a></li>
-       <li><a href="#gallery" class="PHOTOS">PHOTOS</a></li>       
-       <li><a href="#footer-contact" class="contact">CONTACT</a></li>
+        <li><a href="index.html" id="home">Home</a></li>
+        <li><a href="#about" id="about">About</a></li>
+        <li><a href="#contact" id="contact">Contact</a></li>
       </ul>
     </nav>
-    <aside>
-               <h3 class="aside">ASIDE INFO</h3>
-               <p class="aside-para">hire me here.</p>
-          </aside>
-    <main>
+  </header>
+  <div class="hero-banner" id="hero-banner">
+  </div>
+  <main>
+        <section class="page-section" id="about-me">
+          <h2>About Me</h2>
+          <div class="flex-container">
+          <h2>“The best people possess a feeling for beauty, the courage to take risks, the discipline to tell
+            the truth, the capacity for sacrifice. Ironically, their virtues make them vulnerable; they are often
+            wounded, sometimes destroyed.”
+            -- E. Hemingway
+          </h2>
+          </div>
+        </section>
+      <section class="page-section" id="projects">
+        <h2>Projects</h2>
+        <div class="flex-container">
+          <div class="flex-item run-buddy">
+            <h3>Run Buddy</h3>
+          </div>
+          <div class="flex-item led-wall">
+            <h3>LED Wall</h3>
+          </div>
+          <div class="flex-item react-calc">
+            <h3>React Calculator</h3>
+          </div>
+          <div class="flex-item pastel-puzzles">
+            <h3>Pastel Puzzles</h3>
+          </div>
+          <div class="flex-item surf-report">
+            <h3>Surf Report</h3>
+          </div>
+        </div>
+      </section>
+    </div>
+    <section class="page-section contact" id="contact">
+      <h2>Contact Me</h2>
       <div class="flex-container">
-        <section class="about-me" id="about-me">
-            <h2 class="about-heading">ABOUT ME</h2>
-            <p class="about-me-para">this is where i write about me. i'll probably include a photo! </p>
-            <img src="./assets/selfphoto.JPEG" alt="photo of stephenie st.hilaire">
-        </section>
-
-        <section class="portfolio">
-            <h2 class="portfolio-heading" id="portfolio">PORTFOLIO</h2>
-            <p class="portfolio-para">images and info about my portfolio...coming soon.</p>
-            <img src="./assets/behindwaterfall.JPG" alt="view from behind an icelandic waterfall">
-        </section>
-
-        <section class="gallery">
-            <h2 class="gallery-heading" id="gallery">PHOTO GALLERY</h2>
-            <p class="gallery-para">images of my work and personal life.</p>
-            <img src="./assets/IMG_5735.JPG" alt="abandoned planewreck in iceland">
-            <img src="./assets/IMG_5735.JPG" alt="abandoned planewreck in iceland">
-        </section>
+        <div class="flex-item">
+          <address>
+            <a href="mailto:stephenie2@me.com">stephenie2@me.com</a>
+            <a href="tel:2072518392">+1 234 567 890</a>
+            <a href="https://www.linkedin.com/in/stephenie-st-hilaire" target="_blank">LinkedIn</a>
+          </address>
+        </div>
       </div>
-    </main>
+    </section>
+  </main>
+  </div>
+  <footer>
 
- <footer>
- <section class="footer-logo">
- </section>
- <section class="social-media">
-    <a href="http:/www.instagram.com/iamthesaint">
-        <img src="./assets/Instagram_Glyph_White.png" alt="instagram logo" height="50px" width="50px"></a>
-    <a href="http:/www.github.com/iamthesaint">
-        <img src="./assets/github-mark-white.png" alt="github logo" height="50px" width="50px"></a>
- </section>
- <section class="footer-contact" id="footer-contact">
-    <h3>GET IN TOUCH</h3>
-    <p>p: 207-251-8392</p>
-    <p>e: stephenie2@me.com</p>
- </section>
+    <p>&copy; 2021 Stephenie St.Hilaire</p>
+  </footer>
+</body>
 
- </footer>
- </body>
 </html>
