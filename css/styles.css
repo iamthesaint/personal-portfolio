@@ -283,15 +283,13 @@ main {
 /* TODO: add media query to resize min-height at a max-width of 768px*/
 /* .run-buddy should have the same height as the other portfolio items at <768px */
 @media screen and (max-width: 768px) {
-
-  .flex-item{
+  .flex-item {
+    flex-basis: 100%;
     min-height: 150px;
-    flex-basis: calc(100% - 1em);
   }
 
   .flex-item:first-child {
     min-height: 150px;
-    flex-basis: calc(100% - 1em);
   }
 }
 
